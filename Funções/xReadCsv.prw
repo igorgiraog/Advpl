@@ -18,7 +18,7 @@ User Function xReadCSV()
     Local cLib
     Local xRetSys    := GetRemoteType(@cLib)
     Private cDirLog  := GetTempPath() + "log_importacao_protheus\"
-    Private cLog     := ""
+    Private cLog     := "" 
 
 	if xRetSys == 1
 
